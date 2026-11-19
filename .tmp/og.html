@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<style>
+@font-face { font-family: 'Cormorant'; font-weight: 600; src: url('../app/assets/fonts/CormorantGaramond-600.woff2') format('woff2'); }
+@font-face { font-family: 'Spectral'; font-weight: 400; src: url('../app/assets/fonts/Spectral-400.woff2') format('woff2'); }
+html, body { margin: 0; }
+body {
+  width: 1200px; height: 630px; overflow: hidden;
+  font-family: 'Spectral', serif; color: #f5ecda;
+  background: radial-gradient(90% 80% at 82% 6%, #1c3368 0%, transparent 60%), linear-gradient(160deg, #050a19 0%, #0a132c 55%, #101d3d 100%);
+  position: relative;
+  background-color: #050a19;
+}
+.lattice {
+  position: absolute; inset: 0; opacity: .16;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='72' height='72' viewBox='0 0 72 72'%3E%3Cg fill='none' stroke='%23c8a24c' stroke-width='0.8'%3E%3Cpath d='M68 36 48.5 41.2 58.6 58.6 41.2 48.5 36 68 30.8 48.5 13.4 58.6 23.5 41.2 4 36 23.5 30.8 13.4 13.4 30.8 23.5 36 4 41.2 23.5 58.6 13.4 48.5 30.8Z'/%3E%3C/g%3E%3C/svg%3E");
+  background-size: 72px 72px;
+  mask-image: radial-gradient(70% 90% at 80% 30%, #000 0%, transparent 78%);
+}
+/* hairlines avoid the top-left corner (browser chrome overlay lands there) */
+.hair { position: absolute; background: rgba(200,162,76,.42); }
+.hair--b { left: 34px; right: 34px; bottom: 34px; height: 1px; }
+.hair--r { top: 90px; bottom: 34px; right: 34px; width: 1px; }
+.gem { position: absolute; right: 31px; bottom: 31px; width: 7px; height: 7px; background: #ddb866; transform: rotate(45deg); }
+.inner { position: absolute; inset: 0; padding: 88px 96px; display: flex; flex-direction: column; justify-content: space-between; }
+.eyebrow { font-size: 15px; letter-spacing: .34em; text-transform: uppercase; color: #ddb866; }
+h1 { font-family: 'Cormorant', serif; font-weight: 600; font-size: 92px; line-height: .98; margin: 0; letter-spacing: -.02em; color: #fbf6ea; }
+h1 em { display: block; color: #f0d79b; font-style: italic; font-size: 78px; }
+.role { font-size: 22px; color: rgba(245,236,218,.72); margin-top: 22px; }
+.bottom { display: flex; align-items: flex-end; justify-content: space-between; gap: 40px; }
+.rule { flex: 1; height: 1px; background: linear-gradient(90deg, rgba(200,162,76,.65), transparent); }
+.url { font-size: 19px; letter-spacing: .06em; color: rgba(240,215,155,.8); }
+.arch { position: absolute; right: 84px; top: 74px; width: 300px; opacity: .9; }
+</style>
+</head>
+<body>
+  <div class="lattice"></div>
+  <div class="hair hair--b"></div>
+  <div class="hair hair--r"></div>
+  <div class="gem"></div>
+  <svg class="arch" viewBox="0 0 240 330" fill="none" stroke="#c8a24c" stroke-width="1.1">
+    <path d="M18 316 V128 C18 66 62 20 120 20 C178 20 222 66 222 128 V316" opacity=".6"/>
+    <path d="M36 316 V132 C36 76 74 38 120 38 C166 38 204 76 204 132 V316" opacity=".35"/>
+    <line x1="4" y1="316" x2="236" y2="316" stroke-width="1.4" opacity=".7"/>
+    <g transform="translate(120 132)" opacity=".85">
+      <rect x="-46" y="-46" width="92" height="92"/>
+      <rect x="-46" y="-46" width="92" height="92" transform="rotate(45)"/>
+      <circle r="26" stroke-width=".8"/>
+    </g>
+  </svg>
+  <div class="inner">
+    <div>
+      <p class="eyebrow">Kowshan · Ardabil, Iran</p>
+      <h1>Hesam Abbasnezhad<em>backend &amp; delivery</em></h1>
+      <p class="role">Laravel · PHP · Vue · MySQL — four years of production platforms</p>
+    </div>
+    <div class="bottom">
+      <span class="rule"></span>
+      <span class="url">hesamabbasnezhad.github.io</span>
+    </div>
+  </div>
+</body>
+</html>

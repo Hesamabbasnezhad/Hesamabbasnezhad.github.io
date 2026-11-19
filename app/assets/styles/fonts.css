@@ -1,0 +1,58 @@
+/* Self-hosted type: Cormorant Garamond for Latin display, Spectral for Latin
+   body, Vazirmatn for Persian. All local, no third-party font requests. */
+
+@font-face {
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: url('~/assets/fonts/CormorantGaramond-600.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Cormorant Garamond';
+    font-style: italic;
+    font-weight: 600;
+    font-display: swap;
+    src: url('~/assets/fonts/CormorantGaramond-600-italic.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Spectral';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url('~/assets/fonts/Spectral-400.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Spectral';
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: url('~/assets/fonts/Spectral-600.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Vazirmatn';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url('~/assets/fonts/Vazirmatn-400.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Vazirmatn';
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: url('~/assets/fonts/Vazirmatn-600.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Vazirmatn';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url('~/assets/fonts/Vazirmatn-700.woff2') format('woff2');
+}

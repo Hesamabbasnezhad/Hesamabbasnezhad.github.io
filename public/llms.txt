@@ -1,0 +1,38 @@
+# Hesam Abbasnezhad — Backend Developer & Project Manager
+
+> Hesam Abbasnezhad (Hesam Abbasnezhad, حسام عباس‌نژاد) is a backend developer and project manager based in Ardabil, Iran, with four years of experience building production platforms with Laravel, PHP, Vue and MySQL. He is part of the small software studio Kowshan.
+
+This site is a single-page bilingual portfolio. English is the default locale at https://hesamabbasnezhad.github.io/ and the Persian translation lives at https://hesamabbasnezhad.github.io/fa/. Everything below is an anchor on the English page unless stated otherwise.
+
+## Profile
+
+- [About](https://hesamabbasnezhad.github.io/#about): Backend first. Laravel services, MySQL schemas and REST APIs that other teams build on. Four years in, the role widened into project management: scoping, release sequencing and turning client needs into code.
+- [Approach](https://hesamabbasnezhad.github.io/#approach): Four habits repeated on every project — model the domain before screens, ship complete vertical slices, keep the stack boring (Laravel, MySQL, Vue), and own the delivery.
+- [Stack](https://hesamabbasnezhad.github.io/#stack): Laravel, PHP, MySQL, REST APIs; Vue, Nuxt, JavaScript, TypeScript; project management, Agile delivery, Linux, Git.
+
+## Projects
+
+- [Asayroom](https://asayroom.ir): National therapy platform for psychology, psychiatry and counselling. Multilingual, in-person and online sessions, video verification, four-level article categories, assessments and in-app payments. Backend and delivery.
+- [NIGC CRM](https://crm.nigc-ar.ir/): Staff CRM for the National Iranian Gas Company, one of three independent Vue applications with its own visual identity. Backend and project management.
+- [NIGC Field PWA](https://es.nigc-ar.ir/pwa2): Progressive web app for field crews with offline-tolerant task lists and in-app photo capture reporting back to the CRM.
+- Cafe Mahour: Reservation-first platform for a cafe built around consultants and brokers — table booking with bundled packages, menu and a two-level admin. Deployment is private.
+- Baam: Professional qualification platform for inspectors, evaluators and auditors with a resume builder, job selection and automatic per-role skill-gap analysis. In development.
+
+## Open source and elsewhere
+
+- [laravel-iran-bank](https://github.com/Hesamabbasnezhad/laravel-iran-bank): Lightweight Laravel service for validating Iranian banking information — card numbers, account numbers and IBANs.
+- [GitHub](https://github.com/hesamabbasnezhad)
+- [Kowshan UI Kit](https://kowshan-ui-kit.pages.dev/): Open UI kit built by the studio.
+
+## Contact
+
+- [Contact section](https://hesamabbasnezhad.github.io/#contact)
+- Email: hessam.abbasnezhad@gmail.com
+- Telegram: https://t.me/hesam746
+- Instagram: https://instagram.com/hesam.abbasnezhad
+
+## Optional
+
+- [Persian version](https://hesamabbasnezhad.github.io/fa/)
+- [Sitemap](https://hesamabbasnezhad.github.io/sitemap.xml)
+- Structured data: Person, Organization, WebSite, ProfilePage and BreadcrumbList JSON-LD are embedded in both language pages.

@@ -1,0 +1,42 @@
+/* Design tokens: lapis lazuli, gold leaf, turquoise glaze, parchment. */
+:root {
+    --lapis-950: #050a19;
+    --lapis-900: #0a132c;
+    --lapis-800: #101d3d;
+    --lapis-700: #172a55;
+    --lapis-600: #20386d;
+
+    --gold-600: #9e7d2e;
+    --gold-500: #c8a24c;
+    --gold-400: #ddb866;
+    --gold-300: #f0d79b;
+
+    --turquoise-600: #267b77;
+    --turquoise-500: #35968f;
+    --turquoise-400: #57b6ad;
+
+    --parchment-50: #fbf6ea;
+    --parchment-100: #f5ecda;
+    --parchment-200: #eadcc2;
+    --parchment-300: #ddc9a6;
+
+    --ink: #16203a;
+    --ink-soft: #414b66;
+    --ink-faint: #6b7391;
+
+    --font-display: 'Cormorant Garamond', 'Times New Roman', serif;
+    --font-body: 'Spectral', Georgia, serif;
+    --font-fa-display: 'Vazirmatn', Tahoma, sans-serif;
+    --font-fa-body: 'Vazirmatn', Tahoma, sans-serif;
+
+    --shell: 1180px;
+    --gutter: clamp(1.25rem, 4vw, 3.5rem);
+    --rule: 1px solid color-mix(in srgb, var(--gold-500) 34%, transparent);
+
+    --ease: cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+
+:lang(fa) {
+    --font-display: var(--font-fa-display);
+    --font-body: var(--font-fa-body);
+}
